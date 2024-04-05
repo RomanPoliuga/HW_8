@@ -1,0 +1,15 @@
+.text-box > h3:first-child{
+    color:pink
+ }
+ .list-box > h3:hover {
+    background-color: antiquewhite;
+ }
+ .list-box  li:hover {
+    background-color: rgb(38, 220, 193);
+ }
+ .list-box  li:active {
+    background-color: rgb(38, 132, 220);
+ }
+ .list-box > h3:first-child {
+    background-color: rgb(244, 247, 92);
+ }
