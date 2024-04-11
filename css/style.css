@@ -1,15 +1,27 @@
 .text-box > h3:first-child{
-    color:pink
+    color:pink;
  }
- .list-box > h3:hover {
-    background-color: antiquewhite;
+ #greycol{
+   color:grey;
  }
- .list-box  li:hover {
-    background-color: rgb(38, 220, 193);
+  div > p:only-child{
+   color:red;
  }
- .list-box  li:active {
-    background-color: rgb(38, 132, 220);
- }
- .list-box > h3:first-child {
-    background-color: rgb(244, 247, 92);
- }
+.text-box > p:nth-child(7) {
+   color:green
+}
+.yellow {
+   color:yellow
+}
+.list-box > h3:hover {
+   background-color: rebeccapurple;
+}
+.list-box  li:hover {
+   background-color: rgb(38, 220, 193);
+}
+.list-box  li:active {
+   background-color: rgb(38, 132, 220);
+}
+.list-box > h3:first-child {
+   background-color: rgb(244, 247, 92);
+}
